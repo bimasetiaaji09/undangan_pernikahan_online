@@ -1,0 +1,124 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+@font-face{
+    font-family: inter;
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+
+
+/* Dashboard */
+
+.bg-notification {
+    background: linear-gradient(213.66deg, #3185FC 4.85%, #50B0F5 119.17%);
+}
+
+span .base-icon{
+    width: 40px;
+    height: 40px;
+    line-height: 33px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.not-list span.base-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 33px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 34px;
+}
+
+.display-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.display {
+    display: flex;
+}
+
+.title-card-item{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+
+    color: #3A3A3A;
+}
+
+.body-card-content{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+
+    color: #6E798C;
+}
+
+.custome-card-body{
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06),
+    0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}
+
+body .custome-btn{
+    border-radius: 16px;
+}
+
+.custome-title-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+
+    color: #197BBD;
+}
+
+.btn-info-card{
+    border: none;
+    color: white;
+    padding: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100%;
+    height: 3px;
+    width: 3px;
+    background: #FFC22B;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+div .custome-card-head{
+    border-bottom: none;
+}
+
+.center-image{
+    position: absolute;
+    top: 18px;
+    margin-left: -3px;
+    height: 12px;
+}
+
+.vertical-image-align{
+    margin: 0;
+    position: absolute;
+    top: 19px;
+    transform: translate(-50%);
+}
+
+.text-description{
+    white-space: nowrap;
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
